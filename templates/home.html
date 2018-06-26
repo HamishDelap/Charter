@@ -1,0 +1,18 @@
+  {% extends 'layout.html' %}
+
+  {% block body %}
+<div class="jumbotron text-center">
+  <h1>Untapped Analytics</h1>
+</div>
+
+<div  class="btn-group-vertical btn-group-justified" role="group" aria-label="Basic example">
+  <a href='{{ url_for('JarlChart')}}' type="button" class="btn btn-secondary">Jarl</a>
+  <a href='{{ url_for('HurricaneChart')}}' type="button" class="btn btn-secondary">Hurricane Jack</a>
+  <a href='{{ url_for('MillsChart')}}' type="button" class="btn btn-secondary">Mills and Hills</a>
+  <a href='{{ url_for('HighChart')}}' type="button" class="btn btn-secondary">Highlander</a>
+  <a href='{{ url_for('VitalChart')}}' type="button" class="btn btn-secondary">Vital Spark</a>
+  <a href='{{ url_for('SandaChart')}}' type="button" class="btn btn-secondary">Sanda Blonde</a>
+  <a href='{{ url_for('RagChart')}}' type="button" class="btn btn-secondary">Ragnarok</a>
+  <a href='{{ url_for('AvaChart')}}' type="button" class="btn btn-secondary">Avalanche</a>
+</div>
+  {% endblock %}
