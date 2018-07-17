@@ -1,6 +1,6 @@
 ## Synopsis
 
-Examples for using the Chart.js library in a Flask web application for creating line charts.
+My webapp for showing graphs of the data produced by my Untappd Web Scraper
 
 ## How to Run
 
@@ -8,7 +8,7 @@ In the top-level folder, run the development server:
     % python app.py
 
 Go to your favorite web browser and open:
-    http://locallhost:5000
+    http://locallhost:5002
 
 ## Key Python Modules Used
 
